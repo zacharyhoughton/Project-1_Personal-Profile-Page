@@ -12,6 +12,12 @@ body {
   color: #222;
   background: #f7f5f0;
 }
+
+#signature {
+  font-family: 'Rock Salt', cursive;
+  font-size: 1.5em;
+}
+
 /* Link Styles */
 
 a {
@@ -57,20 +63,16 @@ a:hover {
 }
 
 
-/* Page: Experience */
-
-.exbox {
-  background-color: #666;
-  min-width: 300px;
-  min-height: 300px;
-}
-#signature {
-  font-family: 'Rock Salt', cursive;
-  font-size: 1.5em;
-}
 /* Page: Contact */
+#maingallery {
+  max-width: 1020px;
+}
+
+/* Page: Portfolio */
+
 
 #gallery {
+  background-color: orange;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -133,8 +135,8 @@ header .profile-image:hover {
   color: yellow;
 }
 .card {
-  margin: 30px;
-  padding: 20px 40px 40px;
+  margin: 50px 0 0 0;
+  padding: 5px 40px 50px;
   max-width: 500px;
   text-align: left;
   background: #fff;
